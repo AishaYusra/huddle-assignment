@@ -185,9 +185,9 @@ header {
     outline-color: hsl(322, 100%, 66%);
 }
 
-.links3 svg path:hover{
+.links3 svg path:hover {
     fill: hsl(322, 100%, 66%);
-    
+
 }
 
 
@@ -233,7 +233,6 @@ header {
 
     .buildinfo {
         text-align: center;
-    
     }
 
     .box1 {
@@ -251,7 +250,7 @@ header {
         padding: none;
     }
 
-    .box1 p{
+    .box1 p {
         margin-bottom: 30px;
     }
 
@@ -259,57 +258,37 @@ header {
         width: 300px;
         height: 250px;
         margin: 70px;
-
     }
 
-    .box4,
     .box2,
-    .box3 {
-        display: flex;
+    .box3,
+    .box4 {
         flex-direction: column-reverse;
-        align-items: center;
         text-align: center;
-    }
-
-    .box2 h2,
-    .box3 h2,
-    .box4 h2 {
-        margin-bottom: 10px;
-    }
-
-    .box2 p,
-    .box3 p,
-    .box4 p {
-        font-size: 14px;
-    }
-
-
-    .box3 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .box2 .growinfo {
-        display: flex;
-        flex-direction: column;
     }
 
     .box2 img,
     .box3 img,
     .box4 img {
-        width: 200px;
-        height: 130px;
+        width: 150px;
+        height: 100px;
     }
 
-    .center {
-        width: 500px;
-        top: 60px;
-        margin-top: 50px;
+    .growinfo,
+    .flowinginfo,
+    .users {
+        font-size: 10px;
     }
+
+
+
+
+
 
     .readybutton {
-        width: 100%;
+        width: 200px;
         margin-top: 20px;
+
     }
 
     .footer {
@@ -327,32 +306,45 @@ header {
 
     .logo {
         margin-left: -20px;
-        margin-top: 70px;
-        font-size: 16px;
+        margin-top: 60px;
+        font-size: 12px;
     }
+
+
 
     .links1,
     .links2 {
         margin-left: 20px;
+        margin-top: 0;
+        font-size: 12px;
     }
 
-    .links2,
-    .links1 {
-        margin-top: 0;
+    .links2 {
+        margin-bottom: 80px;
     }
+
 
     .links3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: -30px;
-        left: 190px;
-        margin-bottom: 0px;
+        margin-left: 120px;
+        margin-bottom: 40px;
     }
 
     .footer span {
         position: relative;
+        font-size: 10px;
+        margin-left: 100px;
+
+    }
+
+    .center {
+        width: fit-content;
+        margin-left: 30px;
+        margin-right: 30px;
+        top: 60px;
+    }
+
+    .center h2 {
+        text-align: center;
     }
 
 }
